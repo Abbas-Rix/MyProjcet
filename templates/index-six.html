@@ -1,0 +1,992 @@
+{% extends "partial/base.html" %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/swiper.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/all.min.css' %}">
+
+{% endblock extra_css %}
+
+<!-- start navbar -->
+{% block navbar %}
+{% include "partial/nav-six.html" %}
+{% endblock navbar %}
+<!-- end navbar -->
+{% block content %}
+<!--================= Slider Section Start Here =================-->
+<div class="react-slider-part react-slider-part-six">
+    <div class="home-sliders home2 owl-carousel">
+        <div class="single-slide">
+            <div class="slider-img">
+                <img class="desktop" src="{% static 'images/home6/bannerBg.jpg' %}" alt="Slider Image 1">
+                <img class="mobile" src="{% static 'images/home6/bannerBg-mobile.jpg' %}" alt="Slider Image 1">
+            </div>
+            <div class="container">
+                <div class="slider-content">
+                    <div class="content-part">
+                        <span class="slider-pretitle">Great Quality Social life</span>
+                        <h2 class="slider-title">
+                            Discover the world of<br>
+                            possible university.
+                        </h2>
+                        <div class="slider-btn">
+                            <button class="home-six-btn"><a href="about">Admissions</a></button>
+                        </div>
+                        <div class="event__video-btn--play event__video-btn--play-six">
+                            <a href="https://www.youtube.com/watch?v=e5Hc2B50Z7c"
+                                class="event__video-btn--play-btn event__video-btn--play-btn-six custom-popup">
+                                <img class="video-icon" src="{% static 'images/home6/Video icon.png'%}"
+                                    alt="video-icon">
+                                <em>Watch Intro Video</em>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-slide">
+            <div class="slider-img">
+                <img class="desktop" src="{% static 'images/home6/bannerBg.jpg' %}" alt="Slider Image 1">
+                <img class="mobile" src="{% static 'images/home6/bannerBg.jpg' %}" alt="Slider Image 1">
+            </div>
+            <div class="container">
+                <div class="slider-content">
+                    <div class="content-part">
+                        <span class="slider-pretitle">Great Quality Social life</span>
+                        <h2 class="slider-title wow fadeInUp" data-wow-duration="2s">
+                            Discover the world of<br>
+                            possible university.
+                        </h2>
+                        <div class="slider-btn">
+                            <button class="home-six-btn"><a href="about">Admissions</a></button>
+                        </div>
+                        <div class="event__video-btn--play event__video-btn--play-six">
+                            <a href="https://www.youtube.com/watch?v=e5Hc2B50Z7c"
+                                class="event__video-btn--play-btn event__video-btn--play-btn-six custom-popup">
+                                <img class="video-icon" src="{% static 'images/home6/Video icon.png'%}"
+                                    alt="video-icon">
+                                <em>Watch Intro Video</em>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Slider Section End Here =================-->
+
+
+<!--================= About Section Start Here =================-->
+<div class="about-section-six pt---120 pb---120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="section-title-area-six">
+                    <div class="section-pretitle">Echooling Collage & University</div>
+                    <div class="section-title">About Our University
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="about-contents">
+                    <p class="fat-paragraph">Maecenas quisque similique laborum quisquam eaque incididunt
+                        repellat proident nisl
+                        assumenda praesentium? Class suscipit veniam dolorem wisi officiis, turpis praesent
+                        sapien.</p>
+                    <p class="plain-paragraph">Tortor eget senectus. Porttitor facilisis temporibus
+                        voluptates assumenda convallis augue labore
+                        id dignissieo
+                        mos nostrud odio, eos consequat ex magni? Quos facere bibendum wisi mus eros mattis
+                        cum nulla
+                        conubia
+                        consequuntur! Hic velit similique nostrud curae diamlorem nulla blandit diamlorem
+                        faucibus eaque
+                        pha
+                        retra class libero interdum elit neque adipisci auctor, esse blanditiis occaecat
+                        etiam tristique
+                        ultricies </p>
+                    <div class="about-btn">
+                        <button class="home-six-btn"><a href="about">Read more</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-features-wrapper">
+            <div class="about-features-six">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="about-feature-item">
+                            <div class="feature-icon"><img src="{% static 'images/home6/af/alarm clock.png'%}"
+                                    alt="feature-icon"></div>
+                            <h4 class="feature-title">Flexible Schedule</h4>
+                            <p>Tempus cupiditate fugiat hymenaeos fringilla aliquip.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="about-feature-item">
+                            <div class="feature-icon"><img src="{% static 'images/home6/af/Cap.png'%}"
+                                    alt="feature-icon">
+                            </div>
+                            <h4 class="feature-title">Accreditation</h4>
+                            <p>Tempus cupiditate fugiat hymenaeos fringilla aliquip.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="about-feature-item">
+                            <div class="feature-icon"><img src="{% static 'images/home6/af/award.png'%}"
+                                    alt="feature-icon">
+                            </div>
+                            <h4 class="feature-title">Graduation</h4>
+                            <p>Tempus cupiditate fugiat hymenaeos fringilla aliquip.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="about-feature-item">
+                            <div class="feature-icon"><img src="{% static 'images/home6/af/Basketball.png'%}"
+                                    alt="feature-icon"></div>
+                            <h4 class="feature-title">Athletics</h4>
+                            <p>Tempus cupiditate fugiat hymenaeos fringilla aliquip.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= About Section End Here =================-->
+
+<!--================= Video Section Start Here =================-->
+<div class="video_tour-section-six">
+    <div class="container">
+        <div class="contents">
+            <div class="event__video-btn--play tour__video-btn--play-six">
+                <a href="https://www.youtube.com/watch?v=e5Hc2B50Z7c"
+                    class="event__video-btn--play-btn event__video-btn--play-btn-six custom-popup">
+                    <img class="video-icon" src="{% static 'images/home6/Video icon.png'%}" alt="video-icon">
+                </a>
+            </div>
+            <h1 class="video-title">Video Tour in Echooling</h1>
+            <p>Take a tour of Echooling and you will find
+                the mostsuitable university in the state. The video willbring you to every place in this
+                university.</p>
+        </div>
+    </div>
+</div>
+<!--================= Video Section End Here =================-->
+
+
+<!--================= Academics Section Start Here =================-->
+<div class="academics-section-six pt---120 pb---120">
+    <div class="container">
+        <div class="academics-top-contents  mb---80 d-flex justify-content-between align-items-center">
+            <div class="section-title-area-six">
+                <div class="section-title">Academics
+                </div>
+            </div>
+            <a href="coureses-grid" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="academics-cards-area">
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <div class="academics-card">
+                        <div class="card-image"><img src="{% static 'images/home6/academics/1.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">Let’s Talk Science</a></div>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="academics-card">
+                        <div class="card-image"><img src="{% static 'images/home6/academics/2.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">Innovative Courses</a></div>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="academics-card">
+                        <div class="card-image"><img src="{% static 'images/home6/academics/3.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">Cloud Storage</a></div>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="academics-card">
+                        <div class="card-image"><img src="{% static 'images/home6/academics/4.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">Online Education</a></div>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="academics-cards-area-2">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-4 col-md-6">
+                    <div class="academics-card-2">
+                        <div class="card-icon"><img src="{% static 'images/home6/academics/card-icons/Pen Icon.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">Do More, Stress Less</a></div>
+                        <p>Why I say old chap that is spiffing he legged are
+                            it in my flat easy peasy.</p>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="academics-card-2">
+                        <div class="card-icon"><img
+                                src="{% static 'images/home6/academics/card-icons/Business Icon.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">The Business Intelligence</a>
+                        </div>
+                        <p>Why I say old chap that is spiffing he legged are
+                            it in my flat easy peasy.</p>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="academics-card-2">
+                        <div class="card-icon"><img
+                                src="{% static 'images/home6/academics/card-icons/System Icon.png'%}"
+                                alt="academics-card-image"></div>
+                        <div class="card-title"><a href="coureses-grid">System Administration</a></div>
+                        <p>Why I say old chap that is spiffing he legged are
+                            it in my flat easy peasy.</p>
+                        <a href="coureses-grid" class="learn-more">Learn more <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Academics Section End Here =================-->
+
+
+
+
+<!--================= Campus Section Start Here =================-->
+<div class="campus-section-six">
+    <div class="row">
+        <div class="col-xl-6 col-lg-12 p---0">
+            <div class="campus-picture"><img src="{% static 'images/home6/campus/students-walking.jpg' %}"
+                    alt="campus-picture">
+            </div>
+        </div>
+        <div class="col-xl-6 p---0">
+            <div class="contents">
+                <h1 class="campus-title">Campus Life</h1>
+                <p>Building a strong sense of community in Greenville school is both important and doable.
+                    Our school uses different community.</p>
+                <div class="campus-dropdown">
+                    <div class="campus-dropdown-item">
+                        <div class="showed d-flex align-items-center">
+                            <div class="dropdown-icon"><i class="fa-solid fa-angle-right"></i></div>
+                            <div class="title">EXPLORE UNIVERSITY COURSES</div>
+                        </div>
+                        <div class="hidden-content">
+                            <p>Maecenas quisque similique laborum quisquam eaque incidi dunt repellat
+                                proident nisl assumenda.</p>
+                        </div>
+                    </div>
+                    <div class="campus-dropdown-item">
+                        <div class="showed d-flex align-items-center">
+                            <div class="dropdown-icon"><i class="fa-solid fa-angle-right"></i></div>
+                            <div class="title">UNIVERSITY COMMUNITY</div>
+                        </div>
+                        <div class="hidden-content">
+                            <p>Maecenas quisque similique laborum quisquam eaque incidi dunt repellat
+                                proident nisl assumenda.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="home-six-btn mt---30"><a href="signup">Apply Now</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Campus Section End Here =================-->
+
+
+<!--=================  Courses Start Here  =================-->
+<div class="courses-section-six pt---120 pb---120">
+    <div class="container">
+        <div class="section-title-area-six text-center mb---70">
+            <div class="section-title">Famous Courses
+            </div>
+        </div>
+        <div class="slider-area">
+            <div class="swiper coursesSlider-6">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="course-card">
+                            <div class="card-image"><a href="coureses-grid"><img
+                                        src="{% static 'images/home6/courses/2.png'%}" alt="card-image"></a></div>
+                            <div class="price-tag">$80</div>
+                            <div class="card-inner">
+                                <div class="top-info">
+                                    <span class="subject"><i class="fa-solid fa-folder-open"></i> UX
+                                        Design</span>
+                                    <span class="lessons">75 Lessons</span>
+                                </div>
+                                <div class="contents">
+                                    <span class="card-title"><a href="coureses-grid">Dave conservator
+                                            is the Entirely free online.</a></span>
+                                    <div class="status">
+                                        <span class="students"><i class="fa-regular fa-user"></i>50
+                                            Students</span>
+                                        <span class="hours"><i class="fa-regular fa-file-lines"></i>16
+                                            Hours</span>
+                                    </div>
+                                </div>
+                                <div class="bottom-content d-flex align-items-center">
+                                    <div class="courses-rating-six">
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                    </div>
+                                    <span class="learn-details"><a href="coureses-grid">Learn the
+                                            details <i class="fa-solid fa-arrow-right"></i></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="course-card">
+                            <div class="card-image"><a href="coureses-grid"><img
+                                        src="{% static 'images/home6/courses/1.png'%}" alt="card-image"></a></div>
+                            <div class="price-tag">$100</div>
+                            <div class="card-inner">
+                                <div class="top-info">
+                                    <span class="subject"><i class="fa-solid fa-folder-open"></i> Web
+                                        Development</span>
+                                    <span class="lessons">75 Lessons</span>
+                                </div>
+                                <div class="contents">
+                                    <span class="card-title"><span class="card-title"><a href="coureses-grid">The
+                                                complete web develop Men
+                                                boot-camp.</a></span></span>
+                                    <div class="status">
+                                        <span class="students"><i class="fa-regular fa-user"></i>75
+                                            Students</span>
+                                        <span class="hours"><i class="fa-regular fa-file-lines"></i>16
+                                            Hours</span>
+                                    </div>
+                                </div>
+                                <div class="bottom-content d-flex align-items-center">
+                                    <div class="courses-rating-six">
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star blank-star"></i>
+                                    </div>
+                                    <span class="learn-details"><a href="coureses-grid">Learn the
+                                            details <i class="fa-solid fa-arrow-right"></i></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="course-card">
+                            <div class="card-image"><a href="coureses-grid"><img
+                                        src="{% static 'images/home6/courses/3.png'%}" alt="card-image"></a></div>
+                            <div class="price-tag">$120</div>
+                            <div class="card-inner">
+                                <div class="top-info">
+                                    <span class="subject">Programming</span>
+                                    <span class="lessons">75 Lessons</span>
+                                </div>
+                                <div class="contents">
+                                    <span class="card-title"><span class="card-title"><a href="coureses-grid">Python for
+                                                Data Science & Machine
+                                                Learning.</a></span></span>
+                                    <div class="status">
+                                        <span class="students"><i class="fa-regular fa-user"></i>90
+                                            Students</span>
+                                        <span class="hours"><i class="fa-regular fa-file-lines"></i>16
+                                            Hours</span>
+                                    </div>
+                                </div>
+                                <div class="bottom-content d-flex align-items-center">
+                                    <div class="courses-rating-six">
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star blank-star"></i>
+                                    </div>
+                                    <span class="learn-details"><a href="coureses-grid">Learn the
+                                            details <i class="fa-solid fa-arrow-right"></i></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-area">
+            <button class="browse-course-btn home-six-btn"><a href="coureses-list">Browse All Courses
+                </a><i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+    </div>
+</div>
+<!--=================  Courses End Here  =================-->
+
+
+<!--================= Overview Section Start Here =================-->
+<div class="overview-section-six pb---120">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-xl-3">
+                <div class="overview-navigation">
+                    <div class="navigation-btn active" data-show=".selfDev">Self Development</div>
+                    <div class="navigation-btn" data-show=".advtg">Advantage</div>
+                    <div class="navigation-btn" data-show=".alumn">Alumni</div>
+                    <div class="navigation-btn" data-show=".crrOpp">Career Opportunity</div>
+                    <div class="navigation-btn" data-show=".sprtly">Spirituality</div>
+                </div>
+            </div>
+            <div class="col-xl-9">
+                <div class="overview-contents">
+                    <div class="item selfDev">
+                        <div class="content-picture"><img src="{% static 'images/home6/overview/standing.png'%}" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <div class="title">Why Choose Echooling?</div>
+                            </div>
+                            <p>Echooling University Alumni Association is excited to announce the
+                                arrival of KU Alumni Connect. This is a new community building
+                                platform for Kinster’s alumni. It is the only place online where you
+                                can find, and connect with, all 90,000 Kingster’s alumni. All alumni
+                                are automatically enrolled!
+                            </p>
+                            <p class="oneline">
+                                Echooling University was established by John Smith in 1920
+                                Kinster’s alumni. It is the only place online where you
+                                for</p>
+
+                            <a href="about" class="read-more">Read more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item advtg hide">
+                        <div class="content-picture"><img src="{% static 'images/home6/overview/standing.png'%}" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <div class="title">Why Choosing Echooling is Advantage?</div>
+                            </div>
+                            <p>Echooling University Alumni Association is excited to announce the
+                                arrival of KU Alumni Connect. This is a new community building
+                                platform for Kinster’s alumni. It is the only place online where you
+                                can find, and connect with, all 90,000 Kingster’s alumni. All alumni
+                                are automatically enrolled!
+                            </p>
+                            <p class="oneline">
+                                Echooling University was established by John Smith in 1920
+                                Kinster’s alumni. It is the only place online where you
+                                for</p>
+
+                            <a href="about" class="read-more">Read more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item alumn hide">
+                        <div class="content-picture"><img src="{% static 'images/home6/overview/standing.png'%}" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <div class="title">Why Choose Echooling Alumni?</div>
+                            </div>
+                            <p>Echooling University Alumni Association is excited to announce the
+                                arrival of KU Alumni Connect. This is a new community building
+                                platform for Kinster’s alumni. It is the only place online where you
+                                can find, and connect with, all 90,000 Kingster’s alumni. All alumni
+                                are automatically enrolled!
+                            </p>
+                            <p class="oneline">
+                                Echooling University was established by John Smith in 1920
+                                Kinster’s alumni. It is the only place online where you
+                                for</p>
+
+                            <a href="about" class="read-more">Read more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item crrOpp hide">
+                        <div class="content-picture"><img src="{% static 'images/home6/overview/standing.png'%}" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <div class="title">Choose Echooling Your Spirituality.</div>
+                            </div>
+                            <p>Echooling University Alumni Association is excited to announce the
+                                arrival of KU Alumni Connect. This is a new community building
+                                platform for Kinster’s alumni. It is the only place online where you
+                                can find, and connect with, all 90,000 Kingster’s alumni. All alumni
+                                are automatically enrolled!
+                            </p>
+                            <p class="oneline">
+                                Echooling University was established by John Smith in 1920
+                                Kinster’s alumni. It is the only place online where you
+                                for</p>
+
+                            <a href="about" class="read-more">Read more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item sprtly hide">
+                        <div class="content-picture"><img src="{% static 'images/home6/overview/standing.png'%}" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <div class="title">Why Choose Echooling?</div>
+                            </div>
+                            <p>Echooling University Alumni Association is excited to announce the
+                                arrival of KU Alumni Connect. This is a new community building
+                                platform for Kinster’s alumni. It is the only place online where you
+                                can find, and connect with, all 90,000 Kingster’s alumni. All alumni
+                                are automatically enrolled!
+                            </p>
+                            <p class="oneline">
+                                Echooling University was established by John Smith in 1920
+                                Kinster’s alumni. It is the only place online where you
+                                for</p>
+
+                            <a href="about" class="read-more">Read more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Overview Section End Here =================-->
+
+
+<!--================= Events Section Start Here =================-->
+<div class="events-section-six pt---120 pb---120">
+    <div class="container">
+        <div class="section-title-area-six text-center mb---70">
+            <div class="section-title">Famous Courses
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xl-4 col-md-6">
+                <div class="event-card">
+                    <div class="event-card-picture"><img src="{% static 'images/home6/events/1.png'%}"
+                            alt="event-card-image">
+                    </div>
+                    <div class="contents">
+                        <div class="top-content">
+                            <div class="date">
+                                <div class="day">26</div>
+                                <div class="month">JAN</div>
+                            </div>
+                            <div class="card-title"><a href="events">A Better Alternative to Grading
+                                    Student Science Competitions 2022.</a></div>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="event-time"><i class="fa-regular fa-clock"></i> 10:30 AM - 12:30 PM
+                            </div>
+                            <div class="event-location"><i class="fa-solid fa-location-dot"></i> New York,
+                                USA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="event-card">
+                    <div class="event-card-picture"><img src="{% static 'images/home6/events/2.png'%}"
+                            alt="event-card-image">
+                    </div>
+                    <div class="contents">
+                        <div class="top-content">
+                            <div class="date">
+                                <div class="day">30</div>
+                                <div class="month">MAR</div>
+                            </div>
+                            <div class="card-title"><a href="events">Ethics in AI Live Event Machines
+                                    Judging. Web Developers.</a></div>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="event-time"><i class="fa-regular fa-clock"></i> 10:30 AM - 12:30 PM
+                            </div>
+                            <div class="event-location"><i class="fa-solid fa-location-dot"></i> New York,
+                                USA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="event-card">
+                    <div class="event-card-picture"><img src="{% static 'images/home6/events/3.png'%}"
+                            alt="event-card-image">
+                    </div>
+                    <div class="contents">
+                        <div class="top-content">
+                            <div class="date">
+                                <div class="day">01</div>
+                                <div class="month">FEB</div>
+                            </div>
+                            <div class="card-title"><a href="events">A Better Alternative to Grading
+                                    Student Writing Events 2022</a></div>
+                        </div>
+                        <div class="bottom-content">
+                            <div class="event-time"><i class="fa-regular fa-clock"></i> 10:30 AM - 12:30 PM
+                            </div>
+                            <div class="event-location"><i class="fa-solid fa-location-dot"></i> New York,
+                                USA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Events Section End Here =================-->
+
+
+<!--================= Counter Section Start Here =================-->
+<div class="counter-section-six pt---120">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-icon"><img src="{% static 'images/home6/counter/Book Icon.png'%}"
+                            alt="counter-icon">
+                    </div>
+                    <div class="count"><span class="counter">69</span><span>M+</span></div>
+                    <p>Learners & counting</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-icon"><img src="{% static 'images/home6/counter/Cap.png'%}" alt="counter-icon">
+                    </div>
+                    <div class="count"><span class="counter">10</span><span>M+</span></div>
+                    <p>Successful Stories</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-icon"><img src="{% static 'images/home6/counter/Events Icon.png'%}"
+                            alt="counter-icon">
+                    </div>
+                    <div class="count"><span class="counter">11</span><span>M+</span></div>
+                    <p>Scheduled Events</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-icon"><img src="{% static 'images/home6/counter/award.png'%}"
+                            alt="counter-icon"></div>
+                    <div class="count"><span class="counter">91</span><span>M+</span></div>
+                    <p>Successful students</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--================= Counter Section End Here =================-->
+
+
+
+<!--================= Blog Section Start Here ================= -->
+<div class="blog-section-six pt---120 pb---120">
+    <div class="container">
+        <div class="blog-top-contents  mb---80 d-flex justify-content-between align-items-center">
+            <div class="section-title-area-six">
+                <div class="section-title">Latest News
+                </div>
+            </div>
+            <a href="coureses-grid" class="all-news">All News <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="blog-section-inner">
+            <div class="row align-center justify-content-center">
+                <div class="col-xl-4">
+                    <div class="maximized-part">
+                        <div class="blog-picture"><a href="blog-details"><img
+                                    src="{% static 'images/home6/blog/max.png'%}" alt="blog-picture"></a></div>
+                        <div class="blog-date">29 January, 2022</div>
+                        <div class="blog-title"><a href="blog-details">Students Take a Crash Course in
+                                the Mars Planet Project.</a></div>
+                        <div class="read-more-div"><a href="blog-details" class="read-more">Read more
+                                <i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="minimized-part">
+                        <div class="blog-item">
+                            <div class="blog-picture"><a href="blog-details"><img
+                                        src="{% static 'images/home6/blog/min1.png'%}" alt="blog-picture"></a>
+                            </div>
+                            <div class="content">
+                                <div class="blog-date">10 February, 2022</div>
+                                <div class="blog-title"><a href="blog-details">Course Description from
+                                        the Academic Calendar.</a></div>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-picture"><a href="blog-details"><img
+                                        src="{% static 'images/home6/blog/min2.png'%}" alt="blog-picture"></a>
+                            </div>
+                            <div class="content">
+                                <div class="blog-date">10 February, 2022</div>
+                                <div class="blog-title"><a href="blog-details">A course outline or
+                                        syllabus also works as a guide.</a></div>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-picture"><a href="blog-details"><img
+                                        src="{% static 'images/home6/blog/min3.png'%}" alt="blog-picture"></a>
+                            </div>
+                            <div class="content">
+                                <div class="blog-date">10 February, 2022</div>
+                                <div class="blog-title"><a href="blog-details">Course Description from
+                                        the Academic Calendar.</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="news-form-area">
+                        <from class="news-form">
+                            <div class="heading">Join Our Newsletter</div>
+                            <div class="input-area">
+                                <input type="text" placeholder="Enter your name">
+                                <input type="text" placeholder="Enter email address">
+                                <input type="text" placeholder="Enter phone number">
+                            </div>
+                            <button type="submit" class="news-signup-btn">SIGN UP NOW</button>
+                        </from>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Blog Section End Here ================= -->
+
+
+
+<!--================= Testimonials Section Start Here ================= -->
+<div class="testimonials-section-six testimonials-style1 section-bg pt---100 pb---100">
+    <div class="container">
+        <div class="section-title-area-six text-center mb---80">
+            <div class="section-title">Testimonial
+            </div>
+        </div>
+        <div class="testimonials-section-inner">
+            <div class="swiper testimonialsSlider6">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonials-card">
+                            <div class="profile">
+                                <div class="dp"><img src="{% static 'images/home4/testimonials/1.png'%}"
+                                        alt="profile-dp">
+                                </div>
+                                <div class="identity">
+                                    <div class="name">Adam Levine</div>
+                                    <div class="status">Student</div>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <p>Quo nihil, cumque nisl quibusdam.
+                                    Bccaecati asperiores. Sit reiciendis laudblode.</p>
+                                <div class="testimonials-rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star blank-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials-card">
+                            <div class="profile">
+                                <div class="dp"><img src="{% static 'images/home4/testimonials/2.png'%}"
+                                        alt="profile-card-dp">
+                                </div>
+                                <div class="identity">
+                                    <div class="name">Galileo Galilei</div>
+                                    <div class="status">Student</div>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <p>Quo nihil, cumque nisl quibusdam.
+                                    Bccaecati asperiores. Sit reiciendis laudblode.</p>
+                                <div class="testimonials-rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star blank-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials-card">
+                            <div class="profile">
+                                <div class="dp"><img src="{% static 'images/home4/testimonials/3.png'%}"
+                                        alt="profile-card-dp">
+                                </div>
+                                <div class="identity">
+                                    <div class="name">Johnny depp</div>
+                                    <div class="status">Student</div>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <p>Quo nihil, cumque nisl quibusdam.
+                                    Bccaecati asperiores. Sit reiciendis laudblode.</p>
+                                <div class="testimonials-rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star blank-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials-slider-navigation">
+        <div class="testimonials-slider-btn testimonials-slider-prev-btn"><i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="testimonials-slider-btn testimonials-slider-next-btn"><i class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+</div>
+<!--================= Testimonials Section End Here ================= -->
+
+<!--================= Gallary Section Start Here ================= -->
+<div class="gallery-secton-six">
+    <ul class="btn-gallery">
+        <div class="owl-carousel gallery-Slider-6">
+            <div class="item">
+                <li>
+                    <a href="#gallery-1" class="btn-gallery" data-effect="mfp-zoom-in">
+                        <img src="{% static 'images/home6/gallary/1.png'%}" alt="gallary-image" />
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <a href="#gallery-2" class="btn-gallery">
+                        <img src="{% static 'images/home6/gallary/2.png'%}" alt="gallary-image" />
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <a href="#gallery-3" class="btn-gallery">
+                        <img src="{% static 'images/home6/gallary/3.png'%}" alt="gallary-image" />
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <a href="#gallery-4" class="btn-gallery">
+                        <img src="{% static 'images/home6/gallary/4.png'%}" alt="gallary-image" />
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <a href="#gallery-5" class="btn-gallery">
+                        <img src="{% static 'images/home6/gallary/5.png'%}" alt="gallary-image" />
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <a href="#gallery-6" class="btn-gallery">
+                        <img src="{% static 'images/home6/gallary/6.png'%}" alt="gallary-image" />
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </ul>
+    <div id="gallery-1" class="hidden">
+        <a href="{% static 'images/home6/gallary/1.png'%}" data-effect="mfp-zoom-in"></a>
+        <a href="{% static 'images/home6/gallary/2.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/3.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/4.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/5.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/6.png'%}"></a>
+    </div>
+    <div id="gallery-2" class="hidden">
+        <a href="{% static 'images/home6/gallary/2.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/1.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/3.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/4.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/5.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/6.png'%}"></a>
+    </div>
+    <div id="gallery-3" class="hidden">
+        <a href="{% static 'images/home6/gallary/3.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/1.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/2.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/4.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/5.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/6.png'%}"></a>
+    </div>
+    <div id="gallery-4" class="hidden">
+        <a href="{% static 'images/home6/gallary/4.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/1.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/2.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/3.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/5.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/6.png'%}"></a>
+    </div>
+    <div id="gallery-5" class="hidden">
+        <a href="{% static 'images/home6/gallary/5.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/1.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/2.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/3.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/4.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/6.png'%}"></a>
+    </div>
+    <div id="gallery-6" class="hidden">
+        <a href="{% static 'images/home6/gallary/6.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/1.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/2.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/3.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/4.png'%}"></a>
+        <a href="{% static 'images/home6/gallary/5.png'%}"></a>
+    </div>
+
+</div>
+<!--================= Gallary Section End Here ================= -->
+
+
+{% endblock content %}
+{% block footer %}
+{% include "partial/footer.html" %}
+{% endblock footer %}
+<!-- end footer -->

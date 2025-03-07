@@ -1,0 +1,344 @@
+{% extends "partial/base.html" %}
+{% load static %}
+{% block extracss %}
+
+{% endblock extracss %}
+
+<!-- start navbar -->
+{% block navbar %}
+{% include "partial/nav-three.html" %}
+{% endblock navbar %}
+<!-- end navbar -->
+
+{% block content %}
+<div class="react-breadcrumbs">
+    <div class="breadcrumbs-wrap">
+        <img class="desktop" src="{% static 'images/breadcrumbs/1.jpg' %}" alt="Breadcrumbs">
+        <img class="mobile" src="{% static 'images/breadcrumbs/1.jpg' %}" alt="Breadcrumbs">
+        <div class="breadcrumbs-inner">
+            <div class="container">
+                <div class="breadcrumbs-text">
+                    <h1 class="breadcrumbs-title">Events Right Sidebar</h1>
+                    <div class="back-nav">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li>Events Right Sidebar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Breadcrumbs Section End Here =================-->
+<div class="react-upcoming__event react-upcoming__event_list blog__area pt-90 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row align-items-center back-vertical-middle shorting__course3 mb-50">
+                    <div class="col-md-6">
+                        <div class="all__icons">
+                            <div class="result-count">We found 24 events available for you</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <select class="from-control">
+                            <option>Event Type: All</option>
+                            <option>Sort by popularity</option>
+                            <option>Sort by average rating</option>
+                            <option>Sort by lates</option>
+                            <option>Sort by price: low to high</option>
+                            <option>Sort by price: high to low</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/1.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">10 April, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">A Better Alternative To <br>Grading
+                                            Student Writing</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/2.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">14 February, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">12 Things Successful <br> Mompreneurs</a>
+                                    </h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/3.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">26 March, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">Ethics in AI Live Event<br> Machines
+                                            Judging.</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/4.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">19 April, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">The Importance Of <br> Intrinsic
+                                            Motivation.</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/5.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">13 August, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">Learning Counsel Digital<br> Transition
+                                            Discussion</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/6.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">15 January, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">Computing Education <br> Practice
+                                            Conference 2022</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/3.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">24 July, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">Istanbul Teachings of <br>the event for
+                                            Eshooling</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/2.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">18 May, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">Our Excellence Partner <br>France
+                                            Pavilion</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__card">
+                            <div class="case-img">
+                                <img src="{% static 'images/course-filter/1.jpg' %}" alt="Course Image">
+                            </div>
+                            <div class="event__card--content">
+                                <div class="event__card--content-area">
+                                    <div class="event__card--date">10 June, 2022</div>
+                                    <h3 class="event__card--title"><a href="#">Ecosystem dynamics <br>and
+                                            conservation</a></h3>
+                                    <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-map-pin">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg> New York, USA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--================= Pagination Section Start Here =================-->
+                <ul class="back-pagination pt---20">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li class="back-next"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <div class="react-sidebar react-sidebar-event ml----30">
+                    <div class="widget back-post blog-form">
+                        <h3 class="widget-title">Find events</h3>
+                        <form id="contact-form">
+                            <div class="event-input">
+                                <input id="name" type="text" name="name" placeholder="Event from">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-calendar">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                            </div>
+                            <div class="search-form">
+                                <input type="text" name="input" placeholder="Search...">
+                                <button> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    </svg> </button>
+                            </div>
+                            <select class="from-control">
+                                <option>All Categories</option>
+                                <option>Sort by popularity</option>
+                                <option>Sort by average rating</option>
+                                <option>Sort by lates</option>
+                                <option>Sort by price: low to high</option>
+                                <option>Sort by price: high to low</option>
+                            </select>
+                            <div class="location-input">
+                                <input id="subject" type="text" name="subject" placeholder="Location">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="widget back-post">
+                        <h3 class="widget-title">Popular Events</h3>
+                        <ul class="related-courses">
+                            <li>
+                                <a href="coureses-single"><span class="post-images"><img
+                                            src="{% static 'images/related-course/1.jpg' %}" alt="post"></span></a>
+                                <div class="titles">
+                                    <h4><a href="coureses-single">12 Things Successful <br> Mompreneurs</a></h4>
+                                    <span>23 March, 2022</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="coureses-single"><span class="post-images"><img
+                                            src="{% static 'images/related-course/2.jpg' %}" alt="post"></span></a>
+                                <div class="titles">
+                                    <h4><a href="coureses-single">The business <br>Intelligence Analyst.</a></h4>
+                                    <span>24 July, 2022</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="coureses-single"><span class="post-images"><img
+                                            src="{% static 'images/related-course/3.jpg' %}" alt="post"></span></a>
+                                <div class="titles">
+                                    <h4><a href="coureses-single">Adobe lightroom for <br>Beginners complete</a>
+                                    </h4>
+                                    <span>13 May, 2022</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================= Pagination Section End Here =================-->
+    </div>
+</div>
+<!-- start footer -->
+
+{% endblock content %}
+{% block footer %}
+{% include "partial/footer-three.html" %}
+{% endblock footer %}
+<!-- end footer -->

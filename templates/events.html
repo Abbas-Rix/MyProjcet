@@ -1,0 +1,373 @@
+{% extends "partial/base.html" %}
+{% load static %}
+{% block extracss %}
+
+{% endblock extracss %}
+
+<!-- start navbar -->
+{% block navbar %}
+{% include "partial/nav-three.html" %}
+{% endblock navbar %}
+<!-- end navbar -->
+
+{% block content %}
+<!--================= Breadcrumbs Section Start Here =================-->
+<div class="react-breadcrumbs">
+    <div class="breadcrumbs-wrap">
+        <img class="desktop" src="{% static 'images/breadcrumbs/1.jpg' %}" alt="Breadcrumbs">
+        <img class="mobile" src="{% static 'images/breadcrumbs/1.jpg' %}" alt="Breadcrumbs">
+        <div class="breadcrumbs-inner">
+            <div class="container">
+                <div class="breadcrumbs-text">
+                    <h1 class="breadcrumbs-title">Events</h1>
+                    <div class="back-nav">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li>Events</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Breadcrumbs Section End Here =================-->
+<div class="react-upcoming__event react-upcoming__event_page blog__area pt---100 pb---112">
+    <div class="container">
+        <div class="row align-items-center back-vertical-middle shorting__course3 mb-50">
+            <div class="col-md-6">
+                <div class="all__icons">
+                    <div class="result-count">We found 24 events available for you</div>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <select class="from-control">
+                    <option>Event Type: All</option>
+                    <option>Sort by popularity</option>
+                    <option>Sort by average rating</option>
+                    <option>Sort by lates</option>
+                    <option>Sort by price: low to high</option>
+                    <option>Sort by price: high to low</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>10</em> April, 2022</div>
+                            <div class="event_time">10:30 AM - 12:30PM</div>
+                            <h3 class="event__card--title"><a href="#">A Better Alternative To <br> Grading Student
+                                    Writing</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>14</em> February, 2022</div>
+                            <div class="event_time">12:00 AM - 01:30PM</div>
+                            <h3 class="event__card--title"><a href="#">12 Things Successful <br> Mompreneurs</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>26</em> March, 2022</div>
+                            <div class="event_time">01:30 AM - 02:00PM</div>
+                            <h3 class="event__card--title"><a href="#">Ethics in AI Live Event<br> Machines Judging.</a>
+                            </h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>19</em> April, 2022</div>
+                            <div class="event_time">03:00 AM - 04:30PM</div>
+                            <h3 class="event__card--title"><a href="#">The Importance Of <br> Intrinsic Motivation.</a>
+                            </h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>13</em> August, 2022</div>
+                            <div class="event_time">90:00 AM - 10:30PM</div>
+                            <h3 class="event__card--title"><a href="#">Learning Counsel Digital<br> Transition
+                                    Discussion</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>15</em> January, 2022</div>
+                            <div class="event_time">10:30 AM - 11:00PM</div>
+                            <h3 class="event__card--title"><a href="#">Computing Education <br> Practice Conference
+                                    2022</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>24</em> July, 2022</div>
+                            <div class="event_time">10:30 AM - 12:30PM</div>
+                            <h3 class="event__card--title"><a href="#">Istanbul Teachings of <br>the event for
+                                    Eshooling</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>18</em> May, 2022</div>
+                            <div class="event_time">02:00 AM - 3:30PM</div>
+                            <h3 class="event__card--title"><a href="#">Our Excellence Partner <br>France Pavilion</a>
+                            </h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>10</em> June, 2022</div>
+                            <div class="event_time">11:30 AM - 12:30PM</div>
+                            <h3 class="event__card--title"><a href="#">Ecosystem dynamics <br>and conservation</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>23</em> January, 2022</div>
+                            <div class="event_time">10:00 AM - 11:30PM</div>
+                            <h3 class="event__card--title"><a href="#">Istanbul Teachings of <br>the event for
+                                    Eshooling</a></h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>07</em> March, 2022</div>
+                            <div class="event_time">10:30 AM - 12:30PM</div>
+                            <h3 class="event__card--title"><a href="#">Ethics in AI Live Event<br> Machines Judging.</a>
+                            </h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="event__card">
+                    <div class="event__card--content">
+                        <div class="event__card--content-area">
+                            <div class="event__card--date"><em>19</em> September, 2022 </div>
+                            <div class="event_time">09:45 AM - 12:00PM</div>
+                            <h3 class="event__card--title"><a href="#">Machine Learning Night<br> Fastaily Part 1</a>
+                            </h3>
+                            <div class="event_location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg> New York, USA</div>
+                            <a class="event__card--link" href="#"> Get Ticket <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================= Pagination Section Start Here =================-->
+        <ul class="back-pagination pt---20">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="back-next"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-arrow-right">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg></a></li>
+        </ul>
+        <!--================= Pagination Section End Here =================-->
+    </div>
+</div> <!-- start footer -->
+
+{% endblock content %}
+{% block footer %}
+{% include "partial/footer-three.html" %}
+{% endblock footer %}
+<!-- end footer -->

@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!--================= Meta tag =================-->
+    <meta charset="utf-8">
+    <title>Home | Echooling - Online Education HTML Template</title>
+    <meta name="description" content="">
+    <!--================= Responsive Tag =================-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--================= Favicon =================-->
+    <link rel="apple-touch-icon" href="{% static 'images/fav.png' %}">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/fav.png' %}">
+    <!--================= Bootstrap V5 css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <!--================= Menus css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/menus.css' %}">
+    <!--================= Animate css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+    <!--================= Owl Carousel css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.css' %}">
+    <!--================= Elegant icon css  =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts/elegant-icon.css' %}">
+    <!--================= Fontawesome icon css  =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/all.min.css' %}">
+    <!--=================Swiper slider css  =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/swiper.min.css' %}">
+    <!--================= Magnific Popup css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup.css' %}">
+    <!--================= Animations css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animations.css' %}">
+    <!--================= style css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <!--================= Custom Spacing css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/custom-spacing.css' %}">
+    <!--================= Responsive css =================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}">
+    {% block extra_css %}
+    {% endblock extra_css %}
+</head>
+
+<body>
+    <!-- start Loader -->
+    {% block loader %}
+    {% include "partial/loader.html" %}
+    {% endblock loader %}
+
+    <!--================= Wrapper Start Here =================-->
+    {% block content %}
+    {% endblock content %}
+    <!--================= Wrapper End Here =================-->
+    <!-- start footer -->
+
+    {% block footer %}
+    {% include "partial/footer.html" %}
+    {% endblock footer %}
+    <!-- end footer -->
+
+    <!--================= Jquery latest version =================-->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <!--================= Modernizr js =================-->
+    <script src="{% static 'js/modernizr-2.8.3.min.js' %}"></script>
+    <!--================= Bootstrap js =================-->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!--================= Owl Carousel js =================-->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <!--================= Magnific Popup =================-->
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <!--================= Counter up js =================-->
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <!--================= Wow js =================-->
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <!--================= Imagesloaded.pkgd.min js =================-->
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <!--================= swiper slider js =================-->
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <!--================= menus js =================-->
+    <script src="{% static 'js/menus.js' %}"></script>
+    <!--================= Plugins js =================-->
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <!--================= Main js =================-->
+    <script src="{% static 'js/main.js' %}"></script>
+    {% block extra_js %}
+    {% endblock extra_js %}
+</body>
+
+</html>

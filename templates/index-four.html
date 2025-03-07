@@ -1,0 +1,583 @@
+{% extends "partial/base.html" %}
+{% load static %}
+{%  block extra_css %}
+<!--================= Fontawesome icon css  =================-->
+<link rel="stylesheet" type="text/css" href="{% static 'css/all.min.css' %}">
+<!--=================Swiper slider css  =================-->
+<link rel="stylesheet" type="text/css" href="{% static 'css/swiper.min.css' %}">
+{% endblock %}
+
+{% block navbar %}
+{% include "partial/nav-four.html" %}
+{% endblock navbar %}
+
+{% block content %}
+<!--================= Slider Section Start Here =================-->
+<div class="react-slider-part home-four-slider-part">
+    <div class="home-sliders home-four-sliders home2 owl-carousel">
+        <div class="single-slide">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="content-part">
+                        <span class="slider-pretitle">THE ULTIMATE LEARNING</span>
+                        <h2 class="slider-title">
+                            Platform For Freelancer.
+                        </h2>
+                        <p>Freelancer CMS is the perfect tool for the independent creative who wants to
+                            stand out with a bold, beautiful, and easy-to-use template.</p>
+                        <button class="slider-btn">GET STARTED NOW</button>
+                        <ul class="social-links home-four-social-links">
+                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
+                            </li>
+                            <li><a href="#"><span aria-hidden="true" class="social_instagram"></span></a>
+                            </li>
+                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="hero"><img src="{% static 'images/home4/hero.png' %}" alt="hero"></div>
+                </div>
+            </div>
+            <div class="ellipse  scrollDown"><a href="#0"><img class="down"
+                        src="{% static 'images/home4/ellipse.png' %}" alt="ellipse"></a><i class="arrow_down"></i></div>
+        </div>
+        <div class="single-slide single-slide2">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="content-part">
+                        <span class="slider-pretitle">THE ULTIMATE LEARNING</span>
+                        <h2 class="slider-title">
+                            Platform For Freelancer.
+                        </h2>
+                        <p>Freelancer CMS is the perfect tool for the independent creative who wants to
+                            stand out with a bold, beautiful, and easy-to-use template.</p>
+                        <button class="slider-btn">GET STARTED NOW</button>
+                        <ul class="social-links home-four-social-links">
+                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
+                            </li>
+                            <li><a href="#"><span aria-hidden="true" class="social_instagram"></span></a>
+                            </li>
+                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="hero hero2"><img src="{% static 'images/home4/hero2.png' %}" alt="hero2"></div>
+                </div>
+            </div>
+            <div class="ellipse  scrollDown"><a href="#0"><img class="down"
+                        src="{% static 'images/home4/ellipse.png' %}" alt="ellipse-down"></a><i class="arrow_down"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Slider Section End Here =================-->
+
+<!--================= Langueges Section Start Here =================-->
+<div class="langueges-section pt---100 pb---100">
+    <div class="container">
+        <div class="languegeSlider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="lang-item"><a href="#0"><img src="{% static 'images/home4/languages/jade.png' %}"
+                                alt="lang-tem"></a></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="lang-item"><a href=""><img src="{% static 'images/home4/languages/java.png' %}"
+                                alt="lang-tem"></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="lang-item"><a href=""><img src="{% static 'images/home4/languages/mysql.png' %}"
+                                alt="lang-tem"></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="lang-item"><a href=""><img src="{% static 'images/home4/languages/python.png' %}"
+                                alt="lang-tem"></a></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="lang-item"><a href=""><img src="{% static 'images/home4/languages/mysql.png' %}"
+                                alt="lang-tem"></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="lang-item"><a href=""><img src="{% static 'images/home4/languages/sass.png' %}"
+                                alt="lang-tem"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Langueges Section End Here =================-->
+
+<!--================= Catagories Section Start Here =================-->
+<div class="catagories-section home_four-section pt---100 pb---100">
+    <div class="container">
+        <div class="section-title">CATAGORIES</div>
+        <div class="sub-title">Top Catagories</div>
+        <div class="row justify-content-between align-center">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="catagory-item">
+                    <div class="catagory-picture">
+                        <img src="{% static 'images/home4/catagories/1.png' %}" alt="catagory-picture">
+                    </div>
+                    <div class="content">
+                        <div class="item-title"><a href="coureses-grid">Design</a></div>
+                        <div class="info">76+ Courses</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="catagory-item">
+                    <div class="catagory-picture">
+                        <img src="{% static 'images/home4/catagories/2.png' %}" alt="catagory-picture">
+                    </div>
+                    <div class="content">
+                        <div class="item-title"><a href="coureses-grid">Development</a></div>
+                        <div class="info">59+ Courses</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="catagory-item">
+                    <div class="catagory-picture">
+                        <img src="{% static 'images/home4/catagories/3.png' %}" alt="catagory-picture">
+                    </div>
+                    <div class="content">
+                        <div class="item-title"><a href="coureses-grid">Marketing</a></div>
+                        <div class="info">46+ Courses</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="catagory-item">
+                    <div class="catagory-picture">
+                        <img src="{% static 'images/home4/catagories/4.png' %}" alt="catagory-picture">
+                    </div>
+                    <div class="content">
+                        <div class="item-title"><a href="coureses-grid">Business</a></div>
+                        <div class="info">35+ Courses</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="catagory-item">
+                    <div class="catagory-picture">
+                        <img src="{% static 'images/home4/catagories/5.png' %}" alt="catagory-picture">
+                    </div>
+                    <div class="content">
+                        <div class="item-title"><a href="coureses-grid">Photography</a></div>
+                        <div class="info">25+ Courses</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="catagory-item">
+                    <div class="catagory-picture">
+                        <img src="{% static 'images/home4/catagories/6.png' %}" alt="catagory-picture">
+                    </div>
+                    <div class="content">
+                        <div class="item-title"><a href="coureses-grid">Music</a></div>
+                        <div class="info">10+ Courses</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Catagories Section End Here =================-->
+
+<!-- ================= Course Section Start Here =================-->
+<div class="course-section home_four-section">
+    <div class="course-inner">
+        <div class="course-hero">
+            <div class="tutor-picture"><img src="{% static 'images/home4/course/smiling-man.png' %}"
+                    alt="tutor-picture"></div>
+            <div class="phone-picture"><img src="{% static 'images/home4/course/phone.png' %}" alt="phone-picture">
+            </div>
+        </div>
+        <div class="course-contents">
+            <div class="course-contents-inner">
+                <div class="course-sub-title">HIGHLY CREATIVE RESOURCES</div>
+                <div class="course-section-title">World famous professional freelance courses.</div>
+
+                <div class="course-item">
+                    <div class="course-item-icon"><img src="{% static 'images/home4/course/talent.png' %}"
+                            alt="course-item">
+                    </div>
+                    <div class="content">
+                        <div class="course-item-title">Angellist Talent</div>
+                        <p>Detus malesuada blanditiis est eleifend error sit recusandae curae dictum, ligula
+                            cupidatat similique voluptas inceptos.</p>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-item-icon"><img src="{% static 'images/home4/course/clock.png' %}"
+                            alt="course-item-icon">
+                    </div>
+                    <div class="content">
+                        <div class="course-item-title">Satisfaction Guaranteedt</div>
+                        <p>Detus malesuada blanditiis est eleifend error sit recusandae curae dictum, ligula
+                            cupidatat similique voluptas inceptos.</p>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-item-icon"><img src="{% static 'images/home4/course/headphone.png' %}"
+                            alt="course-item-icon"></div>
+                    <div class="content">
+                        <div class="course-item-title">Awsome Support</div>
+                        <p>Detus malesuada blanditiis est eleifend error sit recusandae curae dictum, ligula
+                            cupidatat similique voluptas inceptos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Course Section End Here ================= -->
+
+<!--================= Trending Section Start Here ================= -->
+<div class="trending-section home_four-section pt---100 pb---100">
+    <div class="container">
+        <div class="section-title">COURSES</div>
+        <div class="sub-title">Trending Courses</div>
+        <div class="trending-section-inner">
+            <div class="swiper trendingSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <div class="trending-card-picture">
+                                <img src="{% static 'images/home4/trending/man.png' %}" alt="trending-card-picture">
+                            </div>
+                            <div class="time">35m</div>
+                            <div class="content">
+                                <span class="card-title"><a href="coureses-single">Complete Apps Design</a></span>
+                                <span class="card-info">$ 40.00 USD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <div class="trending-card-picture">
+                                <a href="coureses-single"><img src="{% static 'images/home4/trending/guitarman.png' %}"
+                                        alt="trending-card-picture"></a>
+                            </div>
+                            <div class="time">51m</div>
+                            <div class="content">
+                                <span class="card-title"><a href="coureses-single">Learn Essentials for
+                                        Music</a></span>
+                                <span class="card-info">$ 40.00 USD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <div class="trending-card-picture">
+                                <a href="coureses-single"><img src="{% static 'images/home4/trending/man.png' %}"
+                                        alt="trending-card-picture"></a>
+                            </div>
+                            <div class="time">35m</div>
+                            <div class="content">
+                                <span class="card-title"><a href="coureses-single">Learn Essentials for
+                                        Python</a></span>
+                                <span class="card-info">$ 40.00 USD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <div class="trending-card-picture">
+                                <a href="coureses-single"><img
+                                        src="{% static 'images/home4/trending/smiling-man-using-software.png' %}"
+                                        alt="trending-card-picture"></a>
+                            </div>
+                            <div class="time">1h 2m</div>
+                            <div class="content">
+                                <span class="card-title"><a href="coureses-single">Complete Apps Design</a></span>
+                                <span class="card-info">$ 40.00 USD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-navigation">
+        <div class="trending-button-prev slider-prev-btn"><i class="fa-solid fa-arrow-left-long"></i> PREV
+        </div>
+        <div class="trending-button-next slider-next-btn">NEXT <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+    </div>
+</div>
+<!--================= Trending Section End Here ================= -->
+
+<!--================= Instructor Section Start Here ================= -->
+<div class="instructor-section pt---100 pb---100">
+    <div class="container">
+        <div class="instructor-inner">
+            <div class="content">
+                <h1 class="instructor-title">Become An Instructor</h1>
+                <p class="instructor-info">Nullam, maecenas? Justo, sodales. Perferendis, maecenas convallis
+                    diamlorem
+                    officia aliqua justo gravida debitis! Explicabo ipsum natoque convallis.</p>
+            </div>
+            <button class="instructor-btn">START TEACHING TODAY</button>
+        </div>
+    </div>
+</div>
+<!--================= Instructor Section End Here ================= -->
+
+<!--================= Students Section Start Here ================= -->
+<div class="students-section pt---100 pb---100">
+    <div class="container">
+        <div class="students-inner">
+            <div class="contents">
+                <h1 class="student-section-title">Our Students</h1>
+                <p>Learning online all over 100+ countries</p>
+                <div class="detail">Lacinia varius officiis reiciendis! Delectus hac quos purus vel sit
+                    fugit
+                    cupidatat morbi gravida</div>
+                <div class="followers">
+                    <span class="joined item"><span class="counter">205</span>M+ <p>People who have joined
+                            by Echooling.</p></span>
+                    <span class="learning item"><span class="counter">726</span> + <p>Famous coureses learning Students.
+                        </p></span>
+                </div>
+            </div>
+            <div class="map-image"><img src="{% static 'images/home4/map.png' %}" alt="map-image"></div>
+        </div>
+    </div>
+</div>
+<!--================= Students Section End Here ================= -->
+
+<!--================= Testimonials Section Start Here ================= -->
+<div class="testimonials-section-four home_four-section testimonials-style1 pt---100 pb---100">
+    <div class="container">
+        <div class="section-title">TESTIMONIALS</div>
+        <div class="sub-title">Trending Courses</div>
+        <div class="testimonials-section-inner">
+            <div class="swiper testimonialsSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonials-card">
+                            <div class="profile">
+                                <div class="dp"><img src="{% static 'images/home4/testimonials/1.png' %}"
+                                        alt="profile-dp">
+                                </div>
+                                <div class="identity">
+                                    <div class="name">Adam Levine</div>
+                                    <div class="status">Student</div>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <p>Quo nihil, cumque nisl quibusdam.
+                                    Bccaecati asperiores. Sit reiciendis laudblode.</p>
+                                <div class="testimonials-rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star blank-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials-card">
+                            <div class="profile">
+                                <div class="dp"><img src="{% static 'images/home4/testimonials/2.png' %}"
+                                        alt="profile-card-dp">
+                                </div>
+                                <div class="identity">
+                                    <div class="name">Adam Levine</div>
+                                    <div class="status">Student</div>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <p>Quo nihil, cumque nisl quibusdam.
+                                    Bccaecati asperiores. Sit reiciendis laudblode.</p>
+                                <div class="testimonials-rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star blank-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials-card">
+                            <div class="profile">
+                                <div class="dp"><img src="{% static 'images/home4/testimonials/3.png' %}"
+                                        alt="profile-card-dp">
+                                </div>
+                                <div class="identity">
+                                    <div class="name">Adam Levine</div>
+                                    <div class="status">Student</div>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <p>Quo nihil, cumque nisl quibusdam.
+                                    Bccaecati asperiores. Sit reiciendis laudblode.</p>
+                                <div class="testimonials-rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star blank-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-navigation">
+        <div class="testimonials-button-prev slider-prev-btn"><i class="fa-solid fa-arrow-left-long"></i>
+            PREV
+        </div>
+        <div class="testimonials-button-next slider-next-btn">NEXT <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+    </div>
+</div>
+<!--================= Testimonials Section End Here ================= -->
+
+<!--================= Events Section Start Here ================= -->
+<div class="events-section pt---100 pb---100">
+    <div class="container">
+        <div class="events-section-title">
+            <h1 class="events-title">Upcoming Events</h1>
+            <span class="events-view-all"><a href="#0">View all events</a> <i class="fas fa-chevron-right"></i></span>
+        </div>
+        <div class="events-inner">
+            <div class="event-item">
+                <div class="date">
+                    <span class="day">10</span>
+                    <span class="date-span">April 2022</span>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">Knowledge Diplomacy Seminar</div>
+                    <div class="event-location">Open University, NY USA</div>
+                </div>
+                <button class="event-btn"><a href="events-single">Get a Ticket</a></button>
+            </div>
+            <div class="event-item">
+                <div class="date">
+                    <span class="day">10</span>
+                    <span class="date-span">April 2022</span>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">Big Data and Education (ICBDE 2023)</div>
+                    <div class="event-location">Open University, NY USA</div>
+                </div>
+                <button class="event-btn"><a href="events-single">Get a Ticket</a></button>
+            </div>
+            <div class="event-item">
+                <div class="date">
+                    <span class="day">10</span>
+                    <span class="date-span">April 2022</span>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">Education & Development Conference</div>
+                    <div class="event-location">Open University, NY USA</div>
+                </div>
+                <button class="event-btn"><a href="events-single">Get a Ticket</a></button>
+            </div>
+            <div class="event-item">
+                <div class="date">
+                    <span class="day">10</span>
+                    <span class="date-span">April 2022</span>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">E-Learning and e-Technologies, CSE</div>
+                    <div class="event-location">Open University, NY USA</div>
+                </div>
+                <button class="event-btn"><a href="events-single">Get a Ticket</a></button>
+            </div>
+            <div class="event-item">
+                <div class="date">
+                    <span class="day">10</span>
+                    <span class="date-span">April 2022</span>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">The 10th European Conference, UK</div>
+                    <div class="event-location">Open University, NY USA</div>
+                </div>
+                <button class="event-btn"><a href="events-single">Get a Ticket</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Events Section End Here ================= -->
+
+
+
+
+<!--================= Blog Section Start Here ================= -->
+<div class="blog-section home_four-section pt---100 pb---100">
+    <div class="container">
+        <div class="section-title">BLOG & ARTICLE</div>
+        <div class="sub-title">Latest Blog Posts</div>
+        <div class="blog-section-inner">
+            <div class="row align-center justify-content-center">
+                <div class="col-xl-6">
+                    <div class="maximized-part">
+                        <div class="blog-picture"><a href="blog-details"><img
+                                    src="{% static 'images/home4/blog/talking-audience.png' %}" alt="blog-picture"></a>
+                        </div>
+                        <div class="blog-date">10 February, 2022</div>
+                        <div class="blog-title"><a href="blog-details">Students Take a Crash Course in the Mars
+                                Planet Project.</a></div>
+                        <span class="read-more">Read more <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="minimized-part">
+                        <div class="blog-item">
+                            <div class="blog-picture"><a href="blog-details"><img
+                                        src="{% static 'images/home4/blog/young-woman.png' %}" alt="blog-picture"></a>
+                            </div>
+                            <div class="content">
+                                <div class="blog-date">10 February, 2022</div>
+                                <div class="blog-title"><a href="blog-details">Course Description from the Academic
+                                        Calendar.</a></div>
+                                <span class="read-more">Read more <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-picture"><a href="blog-details"><img
+                                        src="{% static 'images/home4/blog/medium-shot-graduate.png' %}"
+                                        alt="blog-picture"></a>
+                            </div>
+                            <div class="content">
+                                <div class="blog-date">10 February, 2022</div>
+                                <div class="blog-title"><a href="blog-details">A course outline or syllabus also
+                                        works as a guide.</a></div>
+                                <span class="read-more">Read more <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <div class="blog-picture"><a href="blog-details"><img
+                                        src="{% static 'images/home4/blog/portrait-young-student.png' %}"
+                                        alt="blog-picture"></a></div>
+                            <div class="content">
+                                <div class="blog-date">10 February, 2022</div>
+                                <div class="blog-title"><a href="blog-details">Course Description from the Academic
+                                        Calendar.</a></div>
+                                <span class="read-more">Read more <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= Blog Section End Here ================= -->
+{% endblock content %}
+
+{% block footer %}
+{% include "partial/footer-three.html" %}
+{% endblock footer %}
+<!-- end footer -->
